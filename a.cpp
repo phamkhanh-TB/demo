@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     double x, y, size=10;
-    string message(" hải dương ");
+    string message(" dung phú bà ");
     int print_line = 4;
     if (message.length() % 2 != 0) message += " ";
 
