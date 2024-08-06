@@ -1,0 +1,1 @@
+{"name":"Local: big integer factorial","url":"d:\\Desktop\\test\\big integer factorial.cpp","tests":[{"id":1722866056862,"input":"1000000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Desktop\\test\\big integer factorial.cpp","group":"local","local":true}
