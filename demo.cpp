@@ -14,5 +14,5 @@ struct date {
 int main(){
     date a;
     a.nhap();
-    a.xuat();//test
+    a.xuat();
 }
