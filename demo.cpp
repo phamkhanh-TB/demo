@@ -13,6 +13,6 @@ struct date {
 };
 int main(){
     date a;
-    a.nhap();/qưeda
-    a.xuat();
+    a.nhap();
+    
 }
