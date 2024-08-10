@@ -1,14 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-int main(){
-     int t;cin>>t;
-    while(t>0){
-        int idx=t%10;int cnt=0;
-        cout<<idx<<endl;
-        if(t%idx==0&&idx!=0){
-            cnt++;
+bool find_sum(vector<int> &v, const int &k){
+    for(int i=0;i<v.size()-1;i++){
+        for(int j=i+1;j<v.size();j++){
+            int sum=v[i]+v[j];
+            if(sum==k) return true;
         }
-        t/=10;
-
+        
     }
-    }
+    return false;
+}
+int main(){
+    vector<int> arr(6);
+    for(int &x:arr) cin>>x;
+    (find_sum(arr,50)==true)?cout<<"yes":cout<<"no";
+}
